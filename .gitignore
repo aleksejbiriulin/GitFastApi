@@ -21,14 +21,12 @@ htmlcov/
 *.log
 *.tmp
 
-# Если static генерируется сборщиком — раскомментируй
-# static/
-# или
-# app/static/
+static/
 
 # Файлы окружения
 .env
 .env.*
 
 # Poetry: оставляем poetry.lock в репозитории!
-# pyproject.toml и poetry.lock коммитим.
+# pyproject.toml и 
+poetry.lock
