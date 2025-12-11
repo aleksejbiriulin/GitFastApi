@@ -1,0 +1,34 @@
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+.venv/
+venv/
+
+# Тестовые артефакты
+.pytest_cache/
+htmlcov/
+.coverage*
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.swp
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Если static генерируется сборщиком — раскомментируй
+# static/
+# или
+# app/static/
+
+# Файлы окружения
+.env
+.env.*
+
+# Poetry: оставляем poetry.lock в репозитории!
+# pyproject.toml и poetry.lock коммитим.

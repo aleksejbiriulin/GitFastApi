@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gitfastapi"
+version = "0.1.0"
+description = ""
+authors = ["daxter <aleksej.biriulin@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.124.2"
+uvicorn = {extras = ["standard"], version = "^0.38.0"}
+requests = "^2.32.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
