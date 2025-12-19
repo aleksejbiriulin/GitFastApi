@@ -1,4 +1,4 @@
-е
+
 .PHONY: lint-check
 
 lint-check:
